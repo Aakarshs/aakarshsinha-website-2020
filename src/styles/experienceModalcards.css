@@ -1,0 +1,133 @@
+.inner-container {
+    z-index: 200;
+    background-color:rgb(245, 242, 236);
+    width: 100vw;
+    height: 100vh;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: avenir;
+    backdrop-filter: blur(20px);
+    overflow-y: hidden;
+    background-filter:blur(3px);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.container {
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rows {
+    min-height: 1500px;
+    overflow-y: scroll;
+    transform: rotate(-10deg);
+}
+
+.tests {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg{
+    background-color:#F4D57D;
+    z-index: -1;
+    right:0;
+   
+    border-top-left-radius: 50000px;
+    border-bottom-left-radius: 50000px;
+    position: absolute;
+    width: 55vw;
+    height: 150vh;
+}
+
+.side-graphic {
+    width: 350px;
+}
+
+.rows-inner-container-left {
+    margin-top:300px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom:500px;
+}
+
+.rows-inner-container-right {
+    margin-top:400px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+
+.type-button {
+   font-weight: bold;
+    font-family: avenir;
+    border-radius: 20px;   
+    padding: 30px;
+    padding-right: 45px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 45px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+    color:rgb(255, 197, 24);
+    background-color:  white;
+    transition: 0.25s;
+
+}
+
+.type-button:hover {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(255, 197, 24);
+    transition: 0.25s;
+    color:white;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    margin-left: 150px;
+}
+
+.button-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width:50px;
+    cursor: pointer;
+}

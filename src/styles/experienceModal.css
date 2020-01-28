@@ -1,0 +1,101 @@
+.inner-container {
+  z-index: 999;
+  background-color: rgba(52, 49, 213, 0.95);
+  width: 90vw;
+  height: 90vh;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Slide:first-of-type {
+  background-color: rgb(197, 241, 0);
+}
+
+.slide {
+  background-color: #7BAEFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 500px;
+  border-radius: 20px;
+  z-index: -99;
+  margin-left: -20px;
+  margin-right: -260px;
+  color: white;
+}
+
+.slide:nth-child(n) {
+  border-radius: n*10;
+}
+
+.slide:last-child {
+  background-color: #7BAEFF;
+  padding: 10px;
+  bottom: 10px;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel_list {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  max-width: 350px;
+  min-width: 100px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+.side-graphic {
+  width: 400px;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img {
+  width: 50px;
+}
+
+.skill {
+  background-color: rgb(21, 52, 102);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.skills-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

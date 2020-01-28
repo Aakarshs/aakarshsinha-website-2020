@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -7,6 +8,7 @@
 }
 
 .App-header {
+  background-color: white;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,4 +21,18 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.central-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-button{
+  z-index: 999;
+  margin-top: 100px;
+  background-color: #09d3ac;
+  width: 100px;
 }

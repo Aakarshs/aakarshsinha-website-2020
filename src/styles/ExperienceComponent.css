@@ -1,0 +1,149 @@
+.column-items {
+    border-radius: 30px;
+    width: 300px;
+    margin: 15px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    box-shadow: 0px 10px 73px -23px rgba(146, 124, 0, 0.2);
+}
+
+.column-items:hover {
+    box-shadow: 0px 10px 73px -23px rgba(146, 124, 0, 0.5);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.5s;
+}
+
+.logo {
+    align-self: center;
+}
+
+.logo-actual {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.name-component {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: avenir;
+    color: rgba(0, 0, 0, 0.726);
+    margin-top: 20px
+}
+
+.position {}
+
+.description {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.description-first {
+    font-size: 12px;
+}
+
+.date {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: rgb(236, 236, 236);
+    align-self: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.link-outer {
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-item {
+    box-shadow: 10px 10px 73px -23px rgba(0, 0, 0, 0.44);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F9D56D;
+    border-radius: 10px;
+    margin: 2px;
+    color: rgb(104, 104, 104);
+    font-family: avenir;
+    font-size: 15px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #F9D56D;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.link-img {
+    width: 20px;
+    margin-top:8px;
+    margin-right:2px;
+}
+
+.link {
+    background-color: #F9D56D;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 0px 13px 20px -10px rgb(253, 202, 34);
+
+
+}
+
+.link:hover {
+cursor: pointer;
+box-shadow: 0px 13px 30px -20px rgb(253, 202, 34);
+background-color: rgb(230, 230, 230);
+
+}
+
+.link-text{
+    text-decoration: none;
+    color:rgb(58, 58, 58);
+}
+
+.outer-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-element{
+  font-family: avenir;
+    font-size: large;
+}

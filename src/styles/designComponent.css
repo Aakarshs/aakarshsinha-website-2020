@@ -1,0 +1,28 @@
+.column-items-design {
+    border-radius: 30px;
+    width: 340px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    background-color:white;
+    box-shadow: 10px 10px 73px -23px rgba(0, 0, 0, 0.44);
+}
+
+.design-image-container {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.design-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.name-description-container-design {
+    padding: 20px;
+    font-size: 12px;
+    background-color:white;
+}
