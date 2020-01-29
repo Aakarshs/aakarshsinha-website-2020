@@ -87,10 +87,10 @@ export default class ExperienceModalCards extends React.Component {
 
     renderColumns(array_to_map) {
         var mid = array_to_map[0].split
-        if(mid==undefined){
-        mid = Math.ceil(array_to_map.length / 2);
+        if (mid == undefined) {
+            mid = Math.ceil(array_to_map.length / 2);
         }
-       
+
         var left_side = array_to_map.slice(0, mid);
         var right_side = array_to_map.slice(mid);
 
@@ -107,16 +107,16 @@ export default class ExperienceModalCards extends React.Component {
         })}</PoseGroup>;
 
         return (
-                <div className="rows">
-                    <div className="tests">
-                        <div className="rows-inner-container-left">
-                            {first_column}
-                        </div>
-                        <div className="rows-inner-container-right">
-                            {second_column}
-                        </div>
+            <div className="rows">
+                <div className="tests">
+                    <div className="rows-inner-container-left">
+                        {first_column}
+                    </div>
+                    <div className="rows-inner-container-right">
+                        {second_column}
                     </div>
                 </div>
+            </div>
         )
     }
 
@@ -135,7 +135,7 @@ export default class ExperienceModalCards extends React.Component {
         return (
             <div style={{ visibility: this.state.isVisible }} className="main-container-skills">
                 <div className="inner-container-skills">
-                <img className="cancel-button" onClick={() => this.showSkillsModal()} src={require("./assets/cancel.png")} />
+                    <img className="cancel-button" onClick={() => this.showSkillsModal()} src={require("./assets/cancel.png")} />
 
                     <div> Choose a skill </div>
                     <div className="skill-rows">
@@ -156,7 +156,7 @@ export default class ExperienceModalCards extends React.Component {
                 <div style={{ visibility: this.state.isVisible }} className="main-container">
                     {this.state.show_skills ? x : null}
                     <div className="inner-container">
-                    <div className="bg"> </div>
+                        <div className="bg"> </div>
                         <img className="cancel-button" onClick={this.showToggle.bind(this)} src={require("./assets/cancel.png")} />
                         <div className="container">
                             <div className="image-container">
@@ -166,14 +166,15 @@ export default class ExperienceModalCards extends React.Component {
                                         <div className="type-button" onClick={() => this.changeComponentToRender(leadership_list)}>Experience</div>
                                         <div className="type-button" onClick={() => this.changeComponentToRender(design_list)}>Design</div>
                                         <div className="type-button" onClick={() => this.changeComponentToRender(project_list)}>Projects</div>
-                                    </div>
-                                    <div className="button-container-row">
+                                   
+                                   
                                         <div className="type-button" onClick={() => this.changeComponentToRender(this.createAll())}>All</div>
                                         <div className="type-button" onClick={() => this.showSkillsModal()}>Filter</div>
                                     </div>
                                 </div>
                             </div>
-                            {this.renderColumns(this.state.component_to_render)}
+                            
+                                {this.renderColumns(this.state.component_to_render)}
                         </div>
                     </div>
                 </div>

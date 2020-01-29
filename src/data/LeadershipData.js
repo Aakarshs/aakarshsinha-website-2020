@@ -65,10 +65,8 @@ export const leadership_list = [{
     link: [{ name: "enFocus", url: "https://sbenfocus.org/" }],
     description: `Worked with a healthcare startup called Healthy Points to create user experience and 
     user interface designs for their mobile application. 
-
-    ~Used Ionic to implement new designs for the MVP.
     `,
-    skillList: ["Ionic", "Javascript"]
+    skillList: []
 },
 {
     id: 5,
@@ -84,7 +82,7 @@ export const leadership_list = [{
     ~Managed all aspects of a inter-state sports competetion
     ~Designed and managed websites, managed registration and other aspects of the event.
     `,
-    skillList: ["Ionic", "Javascript"]
+    skillList: []
 },
 {
     id: 6,
@@ -127,7 +125,7 @@ export const leadership_list = [{
     ~Participate in Earlham Student Government weekly meetings.
     ~Advocate for needs and wants of Co-Op Hall residents, work directly with administration.
     `,
-    skillList: ["Ionic", "Javascript"]
+    skillList: []
 },
 {
     id: 7,
@@ -147,7 +145,7 @@ export const leadership_list = [{
     ~Represented earlham college in the Hult Prize competition 2018 in San Francisco as a part of methane hub.
     ~Assisted methane hub into setting up a sustainable, green initiative to reduce earlham operating costs.
      `,
-    skillList: ["Ionic", "Javascript"]
+    skillList: []
 },
 {
     id: 8,
@@ -159,6 +157,6 @@ export const leadership_list = [{
     link: [{ name: "enFocus", url: "https://sbenfocus.org/" }],
     description: `Designed, developed, and maintained websites for several departments and organizations on and off campus
     `,
-    skillList: ["Ionic", "Javascript"]
+    skillList: ["HTML", "Javascript","CSS"]
 },
 ]

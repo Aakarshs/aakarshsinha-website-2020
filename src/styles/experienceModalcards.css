@@ -36,7 +36,7 @@
 }
 
 .rows {
-    min-height: 1500px;
+    min-height: 170vh;
     overflow-y: scroll;
     transform: rotate(-10deg);
 }
@@ -86,11 +86,11 @@
    font-weight: bold;
     font-family: avenir;
     border-radius: 20px;   
-    padding: 30px;
-    padding-right: 45px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left: 45px;
+   width:150px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
     font-size: 15px;
     cursor: pointer;
     margin: 10px;
@@ -101,8 +101,7 @@
 }
 
 .type-button:hover {
-    padding-left: 50px;
-    padding-right: 50px;
+    width:160px;
     background-color: rgb(255, 197, 24);
     transition: 0.25s;
     color:white;
@@ -112,16 +111,21 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 35vw;
+    margin-left: 10%;
 }
 
 .image-container {
-    margin-left: 150px;
 }
 
 .button-container-row {
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cancel-button {
