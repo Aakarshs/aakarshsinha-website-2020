@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/aakarshsinha-website-2020/static/css/main.9d9dd3ae.chunk.css",
-    "main.js": "/aakarshsinha-website-2020/static/js/main.4c54e78f.chunk.js",
-    "main.js.map": "/aakarshsinha-website-2020/static/js/main.4c54e78f.chunk.js.map",
+    "main.js": "/aakarshsinha-website-2020/static/js/main.f834fd9c.chunk.js",
+    "main.js.map": "/aakarshsinha-website-2020/static/js/main.f834fd9c.chunk.js.map",
     "runtime-main.js": "/aakarshsinha-website-2020/static/js/runtime-main.57a55bc1.js",
     "runtime-main.js.map": "/aakarshsinha-website-2020/static/js/runtime-main.57a55bc1.js.map",
     "static/js/2.ea846929.chunk.js": "/aakarshsinha-website-2020/static/js/2.ea846929.chunk.js",
     "static/js/2.ea846929.chunk.js.map": "/aakarshsinha-website-2020/static/js/2.ea846929.chunk.js.map",
     "index.html": "/aakarshsinha-website-2020/index.html",
-    "precache-manifest.8f532589d9586c21a24628f579e2343f.js": "/aakarshsinha-website-2020/precache-manifest.8f532589d9586c21a24628f579e2343f.js",
+    "precache-manifest.148a291da76e152ce72fc183c69994ca.js": "/aakarshsinha-website-2020/precache-manifest.148a291da76e152ce72fc183c69994ca.js",
     "service-worker.js": "/aakarshsinha-website-2020/service-worker.js",
     "static/css/main.9d9dd3ae.chunk.css.map": "/aakarshsinha-website-2020/static/css/main.9d9dd3ae.chunk.css.map",
     "static/media/1.png": "/aakarshsinha-website-2020/static/media/1.cf25dd82.png",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.57a55bc1.js",
     "static/js/2.ea846929.chunk.js",
     "static/css/main.9d9dd3ae.chunk.css",
-    "static/js/main.4c54e78f.chunk.js"
+    "static/js/main.f834fd9c.chunk.js"
   ]
 }
