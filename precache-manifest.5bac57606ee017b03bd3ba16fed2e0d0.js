@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cbe0c1cc849d4003c4e4b059d7b487c5",
+    "revision": "6fabde9a368e87acad02e05fac209540",
     "url": "/aakarshsinha-website-2020/index.html"
   },
   {
-    "revision": "9e201343a447c018bb7d",
+    "revision": "e072d7a242998a99defb",
     "url": "/aakarshsinha-website-2020/static/css/main.9d9dd3ae.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aakarshsinha-website-2020/static/js/2.ea846929.chunk.js"
   },
   {
-    "revision": "9e201343a447c018bb7d",
-    "url": "/aakarshsinha-website-2020/static/js/main.5b1f9b5a.chunk.js"
+    "revision": "e072d7a242998a99defb",
+    "url": "/aakarshsinha-website-2020/static/js/main.6859a437.chunk.js"
   },
   {
     "revision": "ca35aed45344ac3d62b7",
