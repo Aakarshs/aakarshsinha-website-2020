@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b15b83406685c49615478bfda09decc9",
+    "revision": "5024cefa2c12d4576bd028a7f7ecf10a",
     "url": "/aakarshsinha-website-2020/index.html"
   },
   {
-    "revision": "6cbe14c93cd93b7ae906",
-    "url": "/aakarshsinha-website-2020/static/css/main.7312a148.chunk.css"
+    "revision": "ab1bccf8e1baa551ea06",
+    "url": "/aakarshsinha-website-2020/static/css/main.9680dc55.chunk.css"
   },
   {
     "revision": "3a2a1b81bb31836201d5",
     "url": "/aakarshsinha-website-2020/static/js/2.ea846929.chunk.js"
   },
   {
-    "revision": "6cbe14c93cd93b7ae906",
+    "revision": "ab1bccf8e1baa551ea06",
     "url": "/aakarshsinha-website-2020/static/js/main.06308472.chunk.js"
   },
   {
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc73bedfff089eeba2cd432a94e6f9bc",
     "url": "/aakarshsinha-website-2020/static/media/ETA.dc73bedf.png"
+  },
+  {
+    "revision": "ecb0c2ae369ba2a89d9a1ec2a1b3187b",
+    "url": "/aakarshsinha-website-2020/static/media/avenir.ecb0c2ae.otf"
   },
   {
     "revision": "b1c7377af2f90758d49d682cf4d4cfb9",
