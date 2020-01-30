@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9433d542b35e3ba0427ddbfb17e276c2",
+    "revision": "e9fef6af512a5a5a7d78872fe9dbcfd3",
     "url": "/aakarshsinha-website-2020/index.html"
   },
   {
-    "revision": "4d854d8452118e5eaa00",
-    "url": "/aakarshsinha-website-2020/static/css/main.b4269ef5.chunk.css"
+    "revision": "b3533122d70f6db98934",
+    "url": "/aakarshsinha-website-2020/static/css/main.6f8f40bd.chunk.css"
   },
   {
     "revision": "3a2a1b81bb31836201d5",
     "url": "/aakarshsinha-website-2020/static/js/2.ea846929.chunk.js"
   },
   {
-    "revision": "4d854d8452118e5eaa00",
-    "url": "/aakarshsinha-website-2020/static/js/main.401cf4a8.chunk.js"
+    "revision": "b3533122d70f6db98934",
+    "url": "/aakarshsinha-website-2020/static/js/main.1d3613cc.chunk.js"
   },
   {
     "revision": "ca35aed45344ac3d62b7",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bdf471713ee7dec3e19576abe39ee749",
     "url": "/aakarshsinha-website-2020/static/media/avenir.bdf47171.ttc"
+  },
+  {
+    "revision": "ecb0c2ae369ba2a89d9a1ec2a1b3187b",
+    "url": "/aakarshsinha-website-2020/static/media/avenir.ecb0c2ae.otf"
   },
   {
     "revision": "b1c7377af2f90758d49d682cf4d4cfb9",
