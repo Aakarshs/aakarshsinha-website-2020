@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aakarshsinha-website-2020/precache-manifest.86d130b1309d8fc2c68579068d840f23.js"
+  "/aakarshsinha-website-2020/precache-manifest.a2f0fc16dc14abe8dc26e47ccb04e5c9.js"
 );
 
 self.addEventListener('message', (event) => {
