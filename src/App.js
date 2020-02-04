@@ -82,7 +82,7 @@ export default class Welcome extends React.Component {
             </div>
 
             <div>
-              <a  className="download-resume-button" href='https://drive.google.com/file/d/1PvzMSNzZi61jjj1Ufw7a1svDeevn4f7O/view?usp=sharing'>Download Resume</a>
+              <a className="download-resume-button" href='https://drive.google.com/file/d/1PvzMSNzZi61jjj1Ufw7a1svDeevn4f7O/view?usp=sharing'>Download Resume</a>
             </div>
           </div>
         </div>
@@ -107,16 +107,18 @@ export default class Welcome extends React.Component {
         <header className="App-header">
           <img src={require("./assets/home_bg.png")} style={{ height: "90vh", zIndex: -1, position: "absolute", right: 0, top: 0 }} />
           <div className="description-container">
-            <div className="name">
-              <div className="name-text-first"> Aakarsh </div>
-              <div className="name-text-second"> Sinha </div>
-            </div>
+            <div>
+              <div className="name">
+                <div className="name-text-first"> Aakarsh </div>
+                <div className="name-text-second"> Sinha </div>
+              </div>
 
-            <div className="description-text">
-              Aakarsh is an entrepreneur, a designer, an engineer and a leader.
-              How is he all of it? Click the button to find out.
+              <div className="description-text">
+                Aakarsh is an entrepreneur, a designer, an engineer and a leader.
+                How is he all of it? Click the button to find out.
             </div>
-            <div className="button" onClick={() => { this.show() }}> Click Here </div>
+              <div className="button" onClick={() => { this.show() }}> Click Here </div>
+            </div>
           </div>
         </header>
       </div>

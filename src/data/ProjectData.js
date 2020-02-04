@@ -50,7 +50,7 @@ export const project_list = [{
     type:'Projects',
     image: 'blank',
     name: "Twitter Sentiment Analysis",
-    link: [{ name: "House Of Design", url: "www.houseofdesign.org" }],
+    link: [{ name: "Github", url: "https://github.com/Bovojon/Hadoop_Sentiment_Analysis" }],
     description: `An application created using Hadoop that performs sentiment analysis on large Yelp 
     datasets of customer reviews from on kaggle using MapReduce and the Hadoop Distributed System`,
     skillList: ["Hadoop","Java","Bash"]

@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Aakarshs.github.io/aakarshsinha-website-2020",
+  "homepage": "http://aakarshsinha.com",
   "dependencies": {
     "pure-react-carousel": "^1.24.1",
     "react": "^16.12.0",

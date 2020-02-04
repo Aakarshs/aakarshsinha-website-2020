@@ -6,13 +6,12 @@ export const leadership_list = [{
     name: "Nadabot LLC",
     position: "Cofounder",
     date: "21st Jan to 21 Oct",
-    link: [{ name: "nadabot", url: "www.nadabot.com" }, { name: "plafora", url: "www.plafora.com" }],
-    description: `NadaBot is a Natural Language Interface app that centralizes 
-    information about resources and opportunities for students within university
-     communities. NadaBot helps you advertise whatever you want to sell within 
-     the convenience and safety of your community. 
+    link: [{ name: "App Store", url: "https://apps.apple.com/us/app/nadabot/id1346216186" }, { name: "plafora", url: "https://www.plafora.com" }],
+    description: `NadaBot LLC started as company that was focused on creating a Natural Language Interface app that centralized
+    information about resources and opportunities for students within university. Now with Plafora Nadabot helps you quickly find and 
+    reserve unique places for your gatherings
 
-     ~ Co-Founded an A.I. driven app that connects students within their college's virtual marketplace.
+     ~ Created an A.I. driven app that connects students within their college's virtual marketplace.
      ~ Worked extensively with React and React Native and android and iOS apis to build a cross platform app,
      ~ Other roles in company:
         Designed website, www.google.com all aspects of the app, and all marketing materials
@@ -27,7 +26,7 @@ export const leadership_list = [{
     name: "House of Routh",
     position: "Founder",
     date: "Sep 2014 to Present",
-    link: [{ name: "House Of Design", url: "www.houseofdesign.org" }],
+    link: [{ name: "House Of Design", url: "https://www.houseofdesign.org" }],
     description: `Founded a design firm "HouseofDesign" that has catered 
     to the design needs of over 100 clients all over the world. We 
     have designed: brochures, logos, websites etc. "HouseofDesign" 
@@ -45,7 +44,7 @@ export const leadership_list = [{
     name: "Sallie Mae",
     position: "Software Engineering Intern",
     date: "21st Jan to 21 Oct",
-    link: [{ name: "Sallie Mae", url: "www.salliemae.com" }],
+    link: [{ name: "Sallie Mae", url: "https://www.salliemae.com" }],
     description: `Worked with the workflow and document generation team to propose, design and engineer different, 
     more efficient solutions for document generation, delivery pipeline and migration from legacy code.
 
