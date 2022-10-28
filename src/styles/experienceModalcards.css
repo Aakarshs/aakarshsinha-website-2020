@@ -38,7 +38,6 @@
 .rows {
     min-height: 170vh;
     overflow-y: scroll;
-    transform: rotate(-10deg);
 }
 
 .tests {
