@@ -47,6 +47,7 @@
   align-items: center;
   display: flex;
   justify-content: left;
+  margin-left: 30px;
   width: 100vw;
   flex-direction: row;
 }
@@ -121,7 +122,7 @@
   font-family: 'avenir';
   padding: 20px;
   font-size: 15px;
-  width: 100px;
+  width: 200px;
   margin-top: 10px;
   color: rgb(83, 83, 83);
   border-radius: 15px;
@@ -183,7 +184,7 @@
   font-family: avenir;
   color: rgb(83, 83, 83);
   font-size: 15px;
-  width: 110px;
+  width: 210px;
   border-radius: 15px;
   background-color: rgb(255, 203, 46);
   box-shadow: 10px 10px 73px -10px rgba(121, 113, 102, 0.44);
